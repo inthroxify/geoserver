@@ -197,10 +197,13 @@ definitions:
       name: workspace
     type: object
     properties:
-      name:
-        type: string
-        description: name of the workspace
-      
+      workspace:
+        type: object
+        properties:
+          name:
+            type: string
+            description: name of the workspace
+
   WorkspacesResponse:
     title: Workspaces
     type: object
